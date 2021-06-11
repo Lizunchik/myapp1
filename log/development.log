@@ -548,3 +548,64 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms | Allocations: 9628)
 
 
+Started GET "/" for ::1 at 2021-06-12 00:17:03 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.9ms | Allocations: 354)
+Completed 200 OK in 19ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2844)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 00:17:07 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.8ms | Allocations: 8740)
+Completed 200 OK in 83ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 10045)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 00:17:07 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 4322)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms | Allocations: 4817)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 00:22:29 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 8448)
+Completed 200 OK in 77ms (Views: 64.1ms | ActiveRecord: 0.0ms | Allocations: 11393)
+
+
+Started GET "/" for ::1 at 2021-06-12 00:22:32 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 234)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 1071)
+
+
+Started GET "/" for ::1 at 2021-06-12 00:22:33 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 224)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1000)
+
+
+Started GET "/projects" for ::1 at 2021-06-12 00:22:38 +0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 4575)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms | Allocations: 5824)
+
+
